@@ -1,0 +1,61 @@
+---
+title: "Homework1"
+author: ' Ozden Cogender 20080384'
+---
+
+```{r global_options, include=FALSE}
+# Do not delete or modify this chunk.
+# We will cover chunk options later.
+# This is required for Question 7
+library(knitr)
+opts_chunk$set(fig.align="center", fig.height=4, fig.width=5.5)
+```
+
+**Question 1** With Markdown write a sentence that has one word in bold.
+
+**Hello World**
+
+**Question 2** With Markdown write a sentence that has one word in italic.
+
+*Hello World*
+
+**Question 3** With Markdown write a sentence that has one word in italic bold.
+
+***Hello World***
+
+**Question 4** With Markdown write an unordered list with three items.
+
+*red* blue \*yellow
+
+**Question 5** With Markdown write an ordered list with three items.
+
+1.red 2.blue 3.yellow
+
+**Question 6** With Markdown give a link to your favorite webpage.
+
+[Netflix!](https://www.netflix.com/tr/)
+
+**Question 7** With Markdown add a cat picture.
+
+![cat photo](https://idsb.tmgrup.com.tr/ly/uploads/images/2021/09/08/142774.jpg)
+
+**Question 8** With Rmarkdown insert a code chunk and give an example of a simple mathematical calculation in it.
+
+```{r}
+x<- 4
+```
+
+```{r}
+2*x
+```
+
+**Question 9** With $LaTeX$ write your favorite equation in block form.
+\$\$ \mathbb{A}[B] = \alpha\_2 + \alpha\_3x
+
+\$\$
+
+**Question 10** In a code chunk calculate 3 + 4.
+
+```{r}
+3+4
+```
